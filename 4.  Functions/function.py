@@ -37,10 +37,10 @@ def getUser():
   user = input('Enter your username:')
   return user
 def getPassword():
-password = input('Enter your password:')
+    password = input('Enter your password:')
 while len(password) < 5:
     print('Your password is too short. Try once again')
-parola = input('Enter your password:')
+    password = input('Enter your password:')
 
 name = getName()
 user = getUser()
