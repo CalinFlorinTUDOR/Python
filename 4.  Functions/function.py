@@ -47,7 +47,7 @@ user = getUser()
 password = getPassword()
 
 def secPassword(password):
-    passwordSec = hash(parola)
+    passwordSec = hash(password)
     return passwordSec
 
 def getDataUser(name, user, password):
@@ -111,7 +111,7 @@ def string_reverse(str1):
         rstr1 += str1[ index - 1 ]
         index = index - 1
     return rstr1
-print(string_reverse('adfxcva'))
+print(string_reverse('adfxcvas'))
 
 def prime_number(n):
     if (n==1):
