@@ -86,7 +86,7 @@ print('Yesterday' + ' d' + charA[1:] + ' ' + charB) # Yesterday dhis morning I d
 
 a=49
 
-print('My age is' + a)
+print('My age is' + a)  
 print('My age is'+str(a))
 
 print('My age','is 49', sep='\n')
