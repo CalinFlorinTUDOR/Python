@@ -12,7 +12,7 @@ my_dictionary = {
 print(my_dictionary)
 print("\n#1 - Add elements in dictionary\n")
 my_dictionary["Adam"] = 2149
-print("Dictionarul actualizat 1.0:\n", my_dictionary)
+print("Updated dictionary 1.0:\n", my_dictionary)
 my_dictionary["Anne"] = 3434
 my_dictionary["Alexander"] = 1204
 my_dictionary["Dan"] = 1378
